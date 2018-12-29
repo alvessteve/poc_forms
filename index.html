@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Givfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row navbar">
+            <div class="col-md-6">
+                <img src="images/logo.png" class="img-responsive" alt="givfolio logo"/>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-uppercase text-center bigTitle">You're joining The givfolio found with a recurring $30 monthly donation</h1>
+            </div>
+        </div>
+        <div class="row corpus">
+            <div class="col-md-6">
+                <img src="images/image.jpg" class="img-responsive" alt="charity image"/>
+            </div>
+            <div class="col-md-6">
+                <form action="#">
+                        <div class="form-group row mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input expand" type="text" id="fullName">
+                            <label class="mdl-textfield__label" for="fullName">Your Full Name</label>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-xs-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input expand" type="email" id="persomail">
+                                    <label class="mdl-textfield__label" for="persomail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input expand" type="password" id="pwd">
+                                    <label class="mdl-textfield__label" for="pwd">Your Password</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-xs-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input expand" type="number" id="creditcard">
+                                    <label class="mdl-textfield__label" for="creditcard">Credit Card Number</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input expand" type="text" id="exp">
+                                    <label class="mdl-textfield__label" for="exp">MM/YY</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input expand" type="number" id="cvv">
+                                    <label class="mdl-textfield__label" for="cvv">CVV</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-xs-12 checkDonation">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                    <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">Add an optional
+                                        <div class="dropdown">
+                                            <a class="dropbtn">5$</a>
+                                                <div class="dropdown-content">
+                                                    <a href="#">0$</a>
+                                                    <a href="#">4$</a>
+                                                    <a href="#">9$</a>
+                                                    <a href="#">
+                                                        <input type="number" min="0" max="1000" placeholder="Custom">
+                                                    </a>
+                                                </div>
+                                        </div>
+                                    to help Givfolio grow </span>
+                                </label>
+                                <div id="tt4" class="icon material-icons">info_outline</div>
+                                    <div class="mdl-tooltip" for="tt4">
+                                            This optional tip helps us cover operating expenses<br> so 100% of donations fund healthcare.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Colored raised button -->
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                            Donate x$
+                        </button>
+                </form>
+            </div>
+        </div>
+        <div class="row ">
+            <section class="col-md-12">
+                <h2 class="text-uppercase text-center"> 100% guarantee.</h2>
+                <p>100% of your donation funds life-changing healthcare;
+we prove it by being radically transparent.</p>
+            </section>
+        </div>
+    </div>
+  </body>
+</html>
